@@ -14,9 +14,10 @@
         <form action="/api/user" method="get" id="get-user-form">
             <label for="token">Token</label>
             <input type="text" name="token" id="token">
-
+            
             <input type="submit" value="Get">
         </form>
+        <div class="user-data"></div>
     </div>
 
     <div class="container">
